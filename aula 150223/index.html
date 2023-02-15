@@ -1,0 +1,206 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Aula 2 de html</title>
+  </head>
+  <body>
+    <figure>
+      <img
+        src="midias/eu-a-patroa-e-as-criancas.jpeg"
+        alt="Capa da serie eu a Patroa e as Crianças" title="capa da serie"
+      />
+      <figcaption>Capa da serie eu a Patroa e as Crianças"></figcaption>
+    </figure>
+    <h2>Video</h2>
+    <video
+      src="./midias/abertura-chaves.mp4"
+      controls="true"
+      width="400px"
+      height="200px"
+    ></video>
+    <h2>Audio</h2>
+    <audio src="./midias/abertura-um-maluco-no-pedaco.mp3" controls="true">
+      abertura um maluco no pedaço
+    </audio>
+    <hr />
+    <br /><br />
+
+    <h2>Listas</h2>
+    <h3>Listas não ordenadas (Listas de Compras)</h3>
+    <!-- Unodered List -> Lista não ordenada -->
+    <ul>
+      <li>Farinha de Trigo</li>
+      <li>Leite</li>
+      <li>Ovos</li>
+      <li>açucar</li>
+    </ul>
+    <br />
+    <h3>Receita de Bolo</h3>
+    <!-- Ordered List -> Lista ordenada -->
+    <ol>
+      <li>Misture todos os ingredientes em uma tigela</li>
+      <li>Aqueça o forno em 180°</li>
+      <li>Coloque a mistura na forma e leve</li>
+      <li>Espere esfriar por 20 minutos e sirva em fatias</li>
+    </ol>
+    <h3>Listas aninhadas</h3>
+    <ul>
+      <li>Café da Manhã</li>
+      <ul>
+        <li>Pão</li>
+        <li>Ovos cozidos</li>
+        <li>Café da manha</li>
+      </ul>
+      <li>
+        Almoço
+        <ul>
+          <li>Arroz</li>
+          <li>Feijão</li>
+          <li>Lasanha</li>
+        </ul>
+      </li>
+
+      <li>
+        Lanche
+        <ol>
+          <li>Bolo</li>
+          <li>Suco</li>
+          <li>Cafe</li>
+        </ol>
+      </li>
+      <li>
+        Jantar
+        <ol>
+          <li>Pizza</li>
+          <li>Hamburguer</li>
+          <li>Refri</li>
+        </ol>
+      </li>
+      <h4>Como lavar as roupas</h4>
+      <li>
+        <ol>
+          <li>
+            Recolha suas Roupas
+            <ol>
+              <li>Veja nos quartos</li>
+              <li>Veja na sala</li>
+              <li>Veja na escadas</li>
+              <li>Veja na banheiro</li>
+            </ol>
+          </li>
+          <li>
+            Leve a máquina de lavar
+            <ol>
+              <li>Verifique se há objetos dentro dos bolsos e das roupas</li>
+              <li>Separe as roupas coloridas das brancas</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ul>
+    <hr />
+    <br /><br />
+    <h3>Listas de Descrição</h3>
+    <dl>
+      <dt>Html</dt>
+      <dd>
+        O html(Hypertext Markup Language ou Linguagem de marcação de hyper
+        texto) é uma linguagem de estrutura os elementos visuais da pagina web)
+      </dd>
+      <dt>CSS</dt>
+      <dd>
+        CSS(Casting style sheet ou folhas de estilo em cascata)é uma linguagem
+        de estilização usada para melhorar a aprencia visual de elementos em um
+        documento HTML
+      </dd>
+    </dl>
+<!-- Atributos especificos(src, href, width, target)
+    atributos globais(id, class, title)
+-->
+<!-- <TR> Table row -->
+  <!-- <td> Table data -->
+    <!-- <th> Table head-->
+      <!-- buscam a melhor estruturação da tabela, não irão contribuir visualmente -->
+      <!-- thead Cabeçalho da tabela -->
+      <!-- tbody corpo da tabela -->
+      <!-- tfoot rodapé da tabela -->
+    <table border="1">
+      <colgroup>
+      <col style="width: 150px;">
+      <col style="width: 150px;">
+      <col style="width: 80px;">
+      <col style="width: 100px;">
+    </colgroup>
+      <tr>
+        <!-- Crtl + d -->
+        <th>Nome</th>
+        <th>Aréa</th>
+        <th>Idade</th>
+        <th>Estado</th>
+      </tr>
+      <tr>
+        <td>Gabriel</td>
+        <td>Full Stack</td>
+        <td>21 anos</td>
+        <td rowspan="3">Campo Grande</td>
+      </tr>
+      <tr>
+        <td>Lucas</td>
+        <td>Full Stack</td>
+        <td>26 anos</td>
+        
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>Marketing</td>
+        <td>25 anos</td>
+        
+      </tr>
+      <tr>
+        <td colspan="4">Professores da SoulCode</td>
+      </tr>
+    </table>
+    <h3>Times do Brasil</h3>
+    <table border="3">
+     <thead><tr>
+        <th>Time</th>
+        <th>Score</th>
+        <th>Gols</th>
+        <th>Vitorias</th>
+      </tr>
+    </thead>
+      <tbody> <tr>
+        <td>Flamengo</td>        
+        <td>320</td>
+        <td>20</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>Fluminense</td>
+        <td>220</td>
+        <td>24</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Corinthians</td>
+        <td>200</td>
+        <td>30</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Vasco</td>
+        <td>180</td>
+        <td>15</td>
+        <td>4</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <td colspan="4">Times Brasileiros</td>
+        </tr>
+      </tfoot>
+    </table>
+</tbody>
+     
+  </body>
+</html>
