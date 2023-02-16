@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h3>Cadastro de Perfil</h3>
+    <!-- Form container do formulario -->
+    <!-- Input, textarea , Select Campos do formulario -->
+    <!-- Label rotulo de um campo do formulario -->
+    <form style="width: 500px;">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+            <label  for="cnome">Nome</label>
+            <input
+            required
+            name="nome"
+            type="text"
+            minlength="1"
+            maxlength="70"
+            id="cNome"
+            /><br />
+
+            <label for="cSenha">Senha</label>
+            <input required name="senha" type="password" id="cSenha" /> <br />
+
+            <label for="cEmail">E-mail:</label>
+            <input id="cEmail" name="email" type="email" /> <br />
+
+            <label for="ctelefone">Telefone</label>
+            <input id="ctelefone" name="Telefone" type="tel" /><br />
+
+            <label for="cInsta">URL do instagram:</label>
+            <input id="cInsta" name="instagram" type="url" /><br />
+
+            <label for="cIDADE">Idade</label>
+            <input id="cIDADE" name="idade" type="number" min="0" max="130" /><br />
+
+            <label for="cDatanasc">Data de Nascimento:</label>
+            <input
+            id="cDatanasc"
+            name="dataNasc"
+            type="date"
+            min="2000-01-01"
+            max="2023-02-16"
+            /><br />
+
+            <label for="eHoraNasc">Hora de Nascimento</label>
+            <input id="eHoraNasc" name="horaNasc" type="time" /><br />
+
+            <label for="dataEhoraNasc">Data e Hora de Nascimento</label>
+            <input
+            id="dataEhoraNasc"
+            name="dataEhoraNasc"
+            type="datetime-local"
+            disabled
+            /><br />
+
+            <label for="cArquivo">Foto de Perfil:</label>
+            <input
+            id="cArquivo"
+            name="arquivo"
+            type="file"
+            multiple
+            accept=".jpeg,png"
+            /><br />
+
+            Interesses:
+            <br />
+            <label for="cHumanas">Humanas</label>
+            <input id="cHumanas" type="checkbox" name="Interesses" />
+            <label for="cExatas">Exatas</label>
+            <input id="cExatas" type="checkbox" name="Interesses" />
+            <label for="cLingua">Linguagens</label>
+            <input type="checkbox" name="Interesses" id="cLingua" />
+            <label for="cCiencia">Ciencias</label>
+            <input id="cCiencia" type="checkbox" name="Interesses" />
+            <br />
+            <label for="cCor">Color:</label>
+            <input id="cCor" type="color" name="cor" value="0" /> <br />
+
+            <label for="cSexo">Sexo:</label>
+            <label for="cMASC">Masculino</label>
+            <input id="cMASC" type="radio" name="sexo" />
+            <label for="cFEM">Feminino</label>
+            <input id="cFEM" type="radio" name="sexo" />
+      </fieldset>
+      
+        <fieldset>
+            <legend>Outras Informações</legend>
+        <label for="cNIVEL">Nivel de inglês: </label>
+        1
+        <input
+            id="cNIVEL"
+            type="range"
+            min="0"
+            max="10"
+            list="markers"
+            name="language"
+        />
+        10
+
+        <!-- Escondigo:
+        <input type="Hidden" -->
+        Escondido:
+        <input type="hidden" value="5485" /> <br />
+
+        <label for="cTexto">Conte um Pouco sobre voce:</label>
+        <br />
+
+        <textarea
+            id="cTexto"
+            cols="40"
+            rows="10"
+            placeholder="Digite seu texto aqui"
+            name="texto"
+        >
+        </textarea>
+        <br />
+
+        <label for="cEscola">Escolaridade:</label>
+        <br />
+        <select id="cEscola" name="escolaridade">
+            <option disabled selected>Selecione uma opção</option>
+            <option>Ensino Fundamental Completo</option>
+            <option>Ensino Medio Completo</option>
+            <option>Ensino Superior Completo</option></select
+        ><br /><br />
+
+        <input type="submit" value="Enviar" />
+        <br />
+        <button type="button">Enviar</button>
+        <button type="reset">Reiniciar</button>
+        <button>Enviar</button>
+    </fieldset>
+
+      
+    </form>
+  </body>
+</html>
