@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina de contatos</title>
+</head>
+<body>
+    <header>
+        <h1>New Level Consultoria</h1>
+        <div style="display: flex; justify-content: space-between;  ">
+            <nav class="" style=" ">
+            <ul style="display: flex; justify-content: space-between; width: 500px; ">
+                <LI><a href="#">Home</a></LI>
+                <LI><a href="#">Sobre</a></LI>
+                <LI><a href="#">Missão</a></LI>
+                <LI><a href="#">Visão</a></LI>
+                <LI><a href="#">Projects</a></LI>
+                <LI><a href="#">Contatos</a></LI>                
+            </ul>
+        </nav>
+    </div>
+        
+    </header>
+    <main>
+        <br>
+        <section>
+            <p>Vaga de emprego programador</p>
+            <div>
+                <H4>Requisitos</H4>
+                <ul>
+                    <li>Proativo e disposto a crescer com o time</li>
+                    <li>Html, Css3, Javascript, algum framework como React ou Angular<br>
+                     experiência com Java ou C#.</li>
+                    <li><b>Diferencial</b> Nobel da paz</li>
+                    <li>Salário a combinar</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+          <form>
+            <h2>Informações de contato</h2>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+           <p>Preencha o formulario que entraremos em contato , não se esqueça de colocar
+            nem um dado.
+           </p>
+           
+           <label for="cNome"><b>Nome:</b></label>
+           <input type="text" id="cNome">
+           <label for="cSobrenome"><b>Sobrenome:</b></label>
+           <input type="text" id="cSobrenome">
+           <label for="cEmail"><b>E-mail:</b></label>
+           <input type="email" id="cEmail"><br>
+           <label for="cTel" ><b>Telefone:</b></label>
+           <input type="tel" id="cTel" >
+           <label type="cIdade"><b>Idade</b></label>
+           <input type="number" id="cIdade">
+           <label for="cNascimento"><b>Data de Nascimento</b></label>
+           <input type="date" min="2000-01-01" max="01-01-2077" id="cNascimento"><br>
+           <label><b>sexo:</b></label><br>
+           <label for="cMASC">Masculino</label>
+           <input type="radio" id="cMASC" name="sexo">
+           <label for="cFem">Feminino</label>
+           <input type="radio" id="cFem" name="sexo"><br>
+           <LABEL>Nivel de escolaridade</LABEL>
+           <select>
+            <option disabled selected> Selecione uma opção</option>
+            <option>Ensino medio Completo</option>
+            <option>Graduação incompleta</option>
+            <option>Graduação Completo</option>
+            <option>Pós-Graduação</option>
+            <option>Mestrado</option>
+            <option>Doutorado</option>
+
+           </select>
+            </fieldset> 
+            <br>
+            <fieldset>
+                <legend>Outras Informações</legend>
+                <label for="nIngles">Nivél de ingles</label>
+                1<input type="range" min="1" max="5" list="markers" name="language" id="nIngles">5<br><br>
+                <label for="cTEXT">O que você espera da empresa ? Escreva pelo menos 10 linhas</label><br>
+                <textarea id="cTEXT" rows="5" cols="80" minlength="10" maxlength="20"></textarea>
+
+                
+            </fieldset>          
+        </section>
+
+          </form>
+
+            
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+
+            </tr>
+        </table>
+    </footer>
+    
+</body>
+</html>
