@@ -1,0 +1,41 @@
+/* 
+prioridade CSS:
+inline> interno > externo
+i, b > p   -  div img > im
+*/
+img{
+    width: 100px !important;
+    height: 100px !important;
+}
+h1{
+    color: blue;
+}
+h1{
+    color: red;
+}
+h1{
+    color: orangered;
+}
+h1{
+    color: yellow;
+}
+i{
+ color: blue;
+}
+b{
+    color: red;
+}
+p{
+    color: #1ee424;
+}
+
+div section article  img {
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+

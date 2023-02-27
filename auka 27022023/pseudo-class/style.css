@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+a{
+    /* pseudo classes usadas para melhorar a exp do
+    usuario */
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 10px 5px;
+    background-color: rgb(25, 148,25);
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: none; /* remove o underline do link*/
+    color: white;
+    border-radius: 8px;
+    transition-property: all ; /* define a propriedade de transição*/
+    transition-duration: 0.2s;/* definir a duração da transição*/
+ 
+}
+
+/* :pseudo classe representa o estado de um elemento */
+a:active{
+    /* sempre que deixar o mouse clicado em cima de um link muda a cor */
+    background-color: red;
+}
+a:visited{
+    /* sempre que um link for clicado isso sera mostrado na pagina alterando a cor */
+    background-color: rgb(17, 53, 17);
+}
+a:hover{
+    /* sempre que passar o mouse em cima mudara a cor */
+    background-color: blue;
+    /* width: 100px;
+    height: 100px; */
+    /* box-shadow: 16px 16px teal; */
+     transform: scale(1.1);/*aumenta a escala do elemento em 110%  */
+   
+}

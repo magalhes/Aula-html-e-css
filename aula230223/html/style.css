@@ -1,0 +1,26 @@
+/* Seletor */
+/* Class -> identificar um elemento de um conjunto em um documento */
+
+#p-1{
+    font-size:30px;
+    font-family: Verdana, sans-serif;
+}
+#p-2{
+ font-size: 30px;
+}
+#p-1 i{
+    color: red;
+}
+h1{
+    color: purple;
+}
+.artigo{
+    width: 300px;
+}
+.artigo img{
+    width: 100%;
+}
+.artigo small{
+    font-size: 15px;
+    font-family: Calibri, sans-serif;
+}

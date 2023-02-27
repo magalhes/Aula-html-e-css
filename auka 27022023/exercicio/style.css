@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+   
+    width: 100%;
+    background-color: rgb(238, 119, 7);
+    height: 60px;
+    padding: 20px;
+}
+ul{
+    margin-left: 25%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 70px;
+  
+
+}
+a{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 5px;
+   
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+a:active{
+    background-color: red;
+}
+a:visited{
+    background-color: green;
+}
+#imagem{
+    
+    background-image: url(Naruto-Shippuden-Boruto-2023.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#overlay{
+    width: 100vw;
+    min-height: 100vh;
+   background-color: #f30d0d20;
+}
