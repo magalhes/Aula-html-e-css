@@ -1,0 +1,21 @@
+/* disolay -> visualização
+block -> ocupa todo o espaço da caixa
+inline-. conteudo ocupa o espaço em linha( um do lado do outro)
+inline-bloc -> */
+.border{
+    padding: 20px;
+    border: 2px solid black;
+}
+.bloco{
+    /* vai ocupar toda a linha disponivel do bloco */
+    display: block;
+
+}
+.inline{
+
+    /* coloca todos os itens lado a lado */
+    display: inline-block;
+}
+.none{
+    display: none;
+}

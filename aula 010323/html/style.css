@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial,  sans-serif;
+}
+.main{
+    width: 80%;
+   
+    margin: 0 auto; /* Centraliza o container*/
+}
+
+.main .artigo{
+    background-color: aquamarine;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+/*Se o dispositivo tiver uma largura menor a igual
+a 720px ele aplicara o media*/
+@media(max-width:720px) and (orientation:landscape){
+    .main .artigo{
+        background-color: rgb(255, 127, 212);
+        width: 250px;
+        height: 270px;
+    }
+}
+/* se o dispositivo tiver uma largura menor ou igual a 600px ou orientação paisagem*/
+@media(max-width:620px) , (orientation:portrait){
+    .main .artigo{
+        background-color: rgb(177, 93, 25);
+        width: 150px;
+        height: 175px;
+    }
+}
+/*mobile first*/
+/*Se o dispositivo tiver uma largura  maior ou igual a 600px*/
+@media(min-width:800px){
+    h1{
+        font-size: 50px;
+    }
+}
+@media(min-width:800px){
+    h1{
+        font-size:70px;
+    }
+}
+
+
